@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS扫雷</title>
+  <link rel="stylesheet" href="game.css">
+
+</head>
+
+<body>
+  <div class="title">财富自由之路</div>
+  <div class="introduction">
+    <div>找出全部人像，圆你财富梦想！</div>
+    <div>胡氏集团总裁胡多鱼倾情代言！</div>
+  </div>
+  <div class="main">
+    <div class="img">
+      <img class="good pic notshow" src="successpic.jpg" alt="">
+      <img class="bad pic notshow" src="failedpic.jpg" alt="">
+    </div>
+    <div class="settings">
+      <div class="level">
+        <div class="settings-title">难度</div>
+        <div class="item levelitem">简单</div>
+        <div class="item levelitem">中等</div>
+        <div class="item levelitem">困难</div>
+      </div>
+      <div class="style">
+        <div class="settings-title">样式</div>
+        <div class="item grey">银灰</div>
+        <div class="item blue">浅蓝</div>
+        <div class="item green">翡绿</div>
+      </div>
+      <div class="restart">重置</div>
+    </div>
+    <div class="playbox">
+    </div>
+    <div class="info">
+      <div class="info-title">剩余</div>
+      <div class="item"><span class="minenum"></span>个</div>
+      <div class="info-title">耗时</div>
+      <div class="item"><span class="time"></span>s</div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="failed notshow">挑战失败，请继续加油！</div>
+    <div class="success notshow">挑战成功，胡多鱼微信在此！</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>
